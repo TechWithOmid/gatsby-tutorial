@@ -1,4 +1,5 @@
 import * as React from 'react'
+import Layout from '../components/layout.js'
 
 const pageStyles = {
     color: "#232129",
@@ -9,11 +10,10 @@ const pageStyles = {
 
 const IndexPage = () => {
     return (
-        <main>
-            <h1>TechWithOmid</h1>
-            <div style={pageStyles}>
-                <p>به وبلاگ من خوش آمدید در اینجا مطالب مرتبط با تکنولوژی و برنامه نویسی به اشتراک میزارم.</p>
-            </div>
+        <main style={pageStyles}>
+            <Layout pageTitle="خانه">
+                <p> به وبلاگ من خوش آمدید در اینجا مطالب مرتبط با تکنولوژی و برنامه نویسی به اشتراک میزارم.</p>
+            </Layout>
         </main>
     )
 }

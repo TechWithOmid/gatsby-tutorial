@@ -29,7 +29,7 @@ const NotFoundPage = () => {
                 <span role="img" aria-label="Pensive emoji">
                     😔
                 </span>{" "}
-                جایی که داری دنبالش می‌گردی رو پیدا نکردم!
+                داداچ داری اچتب میزنی این صفحه رو نداریم!
                 <br />
                 <Link to="/">صفحه اصلی</Link>.
             </p>
