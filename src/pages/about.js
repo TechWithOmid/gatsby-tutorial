@@ -1,16 +1,10 @@
 import * as React from 'react'
 import Layout from '../components/layout.js'
 
-const pageStyles = {
-    color: "#232129",
-    padding: "96px",
-    direction: 'rtl',
-    fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
 
 const AboutPage = () => {
     return (
-        <main style={pageStyles}>
+        <main>
             <Layout pageTitle="درباره من">
                 <p>سلام!</p>
                 <p>
