@@ -1,10 +1,6 @@
-*{
-    padding: 0px;
-    margin: 0px;
-}
 .container{
     color: #232129;
-    padding: 10px 200px;
+    padding: 50px ;
     direction: rtl;
 }
 
@@ -12,7 +8,6 @@ nav{
     background-color: #007aaf;
     direction: rtl;
     margin: 50px;
-    padding: 7px;
 }
 
 .nav-links {
@@ -26,4 +21,8 @@ nav{
 .nav-link-text {
   color: white;
   text-decoration: none;
+}
+
+StaticImage{
+    margin: 5px;
 }
