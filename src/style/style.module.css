@@ -5,9 +5,8 @@
 }
 
 nav{
-    background-color: #007aaf;
     direction: rtl;
-    margin: 50px;
+    margin: 3px 30px;
 }
 
 .nav-links {
@@ -19,10 +18,20 @@ nav{
   padding-right: 2rem;
 }
 .nav-link-text {
-  color: white;
+  padding: 10px;
+  background-color: #d4d2d2;
+  color: black;
   text-decoration: none;
 }
 
-StaticImage{
-    margin: 5px;
+.nav-link-text:hover{
+    background-color: #969696;
+}
+
+.site-title {
+  text-align: center;
+  font-size: 3rem;
+  color: gray;
+  font-weight: 700;
+  margin: 3rem 0;
 }
