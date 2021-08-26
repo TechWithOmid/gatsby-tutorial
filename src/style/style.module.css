@@ -26,6 +26,7 @@ nav{
 
 .nav-link-text:hover{
     background-color: #969696;
+    color: white;
 }
 
 .site-title {
